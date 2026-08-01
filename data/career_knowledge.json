@@ -1,0 +1,114 @@
+{
+  "roles": [
+    {
+      "id": "cybersecurity",
+      "title": "Cybersecurity Professional",
+      "description": "Protects systems, networks, and data from cyber threats",
+      "sub_roles": ["Red Team (Penetration Testing)", "Blue Team (Security Operations)", "SOC Analyst", "GRC Specialist", "Security Architect", "Incident Responder", "Threat Hunter"],
+      "required_skills": ["Network Security", "Threat Analysis", "Incident Response", "Security Tools (SIEM, Firewalls)", "Risk Assessment", "Security Frameworks (NIST, ISO, CIS)", "Vulnerability Assessment", "Penetration Testing", "Security Auditing"],
+      "certifications": ["CompTIA Security+", "CISSP", "CEH", "CISA", "OSCP", "GIAC", "CISM", "CRISC"],
+      "career_path": ["Junior Security Analyst", "Security Engineer", "Senior Security Engineer", "Security Architect", "CISO", "Security Director"],
+      "salary_range": {"entry": "70,000-90,000", "mid": "100,000-140,000", "senior": "150,000-200,000"},
+      "learning_resources": ["TryHackMe", "HackTheBox", "Cybrary", "SANS", "Coursera"]
+    },
+    {
+      "id": "networking",
+      "title": "Network Engineer",
+      "description": "Designs, implements, and manages network infrastructure",
+      "sub_roles": ["Network Administrator", "Network Architect", "Network Security Engineer", "Cloud Network Engineer", "Wireless Engineer", "Network Automation Engineer"],
+      "required_skills": ["TCP/IP", "Routing and Switching", "Network Protocols (BGP, OSPF, EIGRP)", "Cisco/Juniper", "Network Security", "Cloud Networking", "SD-WAN", "Network Automation (Python, Ansible)"],
+      "certifications": ["CCNA", "CCNP", "CompTIA Network+", "JNCIA", "AWS Certified Advanced Networking", "Azure Network Engineer Associate"],
+      "career_path": ["Junior Network Admin", "Network Engineer", "Senior Network Engineer", "Network Architect", "Network Director"],
+      "salary_range": {"entry": "65,000-85,000", "mid": "90,000-120,000", "senior": "130,000-160,000"},
+      "learning_resources": ["Cisco Networking Academy", "INE", "NetworkLessons", "Udemy", "Pluralsight"]
+    },
+    {
+      "id": "developer",
+      "title": "Software Developer",
+      "description": "Designs, develops, and maintains software applications",
+      "sub_roles": ["Frontend Developer", "Backend Developer", "Full Stack Developer", "Mobile Developer", "API Developer", "Game Developer", "Embedded Developer"],
+      "required_skills": ["Programming Languages (Python, Java, JavaScript, C#)", "Data Structures and Algorithms", "Version Control (Git)", "Testing/Debugging", "Design Patterns", "Cloud/DevOps Basics", "Database Management", "Web Frameworks"],
+      "certifications": ["AWS Developer Associate", "Microsoft Certified: Azure Developer", "Oracle Certified Java Developer", "Google Associate Android Developer", "MERN Stack Developer"],
+      "career_path": ["Junior Developer", "Developer", "Senior Developer", "Lead Developer", "Principal Engineer", "Engineering Manager"],
+      "salary_range": {"entry": "70,000-90,000", "mid": "100,000-140,000", "senior": "150,000-200,000"},
+      "learning_resources": ["LeetCode", "HackerRank", "Codecademy", "FreeCodeCamp", "The Odin Project"]
+    },
+    {
+      "id": "devops",
+      "title": "DevOps/DevSecOps Engineer",
+      "description": "Bridges development and operations with automation and security",
+      "sub_roles": ["DevOps Engineer", "DevSecOps Engineer", "SRE", "Cloud Engineer", "Build Engineer", "Release Manager", "Platform Engineer"],
+      "required_skills": ["CI/CD (Jenkins, GitLab CI, GitHub Actions)", "Containerization (Docker, Kubernetes)", "Infrastructure as Code (Terraform, Ansible)", "Monitoring/Logging (Prometheus, Grafana, ELK)", "Security Integration", "Cloud Platforms", "Scripting (Python, Bash)"],
+      "certifications": ["AWS DevOps Engineer", "Azure DevOps Expert", "Kubernetes Administrator (CKA)", "Certified Jenkins Engineer", "DevSecOps Professional", "Hashicorp Certified"],
+      "career_path": ["Junior DevOps Engineer", "DevOps Engineer", "Senior DevOps Engineer", "DevSecOps Lead", "Cloud Architect", "SRE Manager"],
+      "salary_range": {"entry": "80,000-100,000", "mid": "110,000-150,000", "senior": "160,000-200,000"},
+      "learning_resources": ["DevOps Roadmap", "Kubernetes Documentation", "Docker Mastery", "Terraform Up & Running", "Linux Academy"]
+    },
+    {
+      "id": "cloud",
+      "title": "Cloud Architect",
+      "description": "Designs and manages cloud infrastructure and services",
+      "sub_roles": ["Cloud Architect", "Cloud Consultant", "Cloud Security Architect", "Cloud DevOps Engineer", "Cloud Data Architect", "Cloud Solutions Architect"],
+      "required_skills": ["Cloud Platforms (AWS, Azure, GCP)", "Infrastructure as Code", "Cloud Security", "Container Orchestration", "Cloud Networking", "Cost Optimization", "Disaster Recovery", "Cloud Migration"],
+      "certifications": ["AWS Solutions Architect Professional", "Azure Solutions Architect Expert", "Google Cloud Professional Architect", "Cloud Security Alliance", "AWS Certified Security"],
+      "career_path": ["Cloud Engineer", "Cloud Architect", "Senior Cloud Architect", "Principal Cloud Architect", "Cloud Director"],
+      "salary_range": {"entry": "90,000-110,000", "mid": "130,000-160,000", "senior": "170,000-220,000"},
+      "learning_resources": ["AWS Training", "Azure Learn", "GCP Training", "Cloud Academy", "A Cloud Guru"]
+    },
+    {
+      "id": "ai_ml",
+      "title": "AI/ML Engineer",
+      "description": "Develops artificial intelligence and machine learning solutions",
+      "sub_roles": ["ML Engineer", "Data Scientist", "Prompt Engineer", "AI Researcher", "NLP Engineer", "Computer Vision Engineer", "MLOps Engineer"],
+      "required_skills": ["Python", "Machine Learning (Scikit-learn, PyTorch, TensorFlow)", "Deep Learning", "NLP", "Data Science", "MLOps", "Statistics", "Data Engineering"],
+      "certifications": ["Google Professional ML Engineer", "AWS ML Specialty", "TensorFlow Developer", "Azure AI Engineer", "Deep Learning Specialization"],
+      "career_path": ["Junior ML Engineer", "ML Engineer", "Senior ML Engineer", "AI Architect", "Principal AI Scientist", "VP of AI"],
+      "salary_range": {"entry": "90,000-120,000", "mid": "130,000-170,000", "senior": "180,000-250,000"},
+      "learning_resources": ["Fast.ai", "Deep Learning Specialization", "Kaggle", "Papers With Code", "Hugging Face"]
+    },
+    {
+      "id": "uiux",
+      "title": "UI/UX Designer",
+      "description": "Creates user-friendly and visually appealing digital interfaces",
+      "sub_roles": ["UX Researcher", "UI Designer", "Product Designer", "Interaction Designer", "UX Writer", "Design Systems Designer"],
+      "required_skills": ["Design Thinking", "User Research", "Wireframing/Prototyping", "UI Design Principles", "Design Tools (Figma, Adobe XD)", "Usability Testing", "Information Architecture", "Visual Design"],
+      "certifications": ["Google UX Design Certificate", "Interaction Design Foundation", "Certified UX Designer", "Adobe Certified Professional", "UX Management"],
+      "career_path": ["Junior Designer", "UI/UX Designer", "Senior Designer", "Lead Designer", "Design Director", "VP of Design"],
+      "salary_range": {"entry": "60,000-80,000", "mid": "85,000-110,000", "senior": "120,000-150,000"},
+      "learning_resources": ["Interaction Design Foundation", "Nielsen Norman Group", "Figma Learn", "UX Planet", "DesignBetter"]
+    },
+    {
+      "id": "project_manager",
+      "title": "Technical Project Manager",
+      "description": "Manages software development projects from planning to delivery",
+      "sub_roles": ["Agile Coach", "Scrum Master", "Product Owner", "Delivery Manager", "Technical Program Manager", "PMO Lead"],
+      "required_skills": ["Project Management (Agile, Scrum, Waterfall)", "Communication", "Risk Management", "Stakeholder Management", "Technical Understanding", "Budgeting", "Resource Planning"],
+      "certifications": ["PMP", "CSM", "SAFe Agilist", "PRINCE2", "PMI-ACP", "AgilePM"],
+      "career_path": ["Junior Project Manager", "Project Manager", "Senior Project Manager", "Program Manager", "PMO Director", "VP of Delivery"],
+      "salary_range": {"entry": "70,000-90,000", "mid": "100,000-130,000", "senior": "140,000-170,000"},
+      "learning_resources": ["PMI Resources", "Scrum Alliance", "Atlassian", "Agile Alliance", "Project Management Institute"]
+    },
+    {
+      "id": "data_engineer",
+      "title": "Data Engineer",
+      "description": "Designs, builds, and maintains data pipelines and infrastructure",
+      "sub_roles": ["Data Engineer", "ETL Developer", "Data Architect", "Analytics Engineer", "Data Platform Engineer", "Big Data Engineer"],
+      "required_skills": ["SQL", "Python", "Data Warehousing", "ETL/ELT", "Big Data (Spark, Hadoop)", "Cloud Platforms", "Data Modeling", "Streaming (Kafka)", "Data Governance"],
+      "certifications": ["Google Professional Data Engineer", "AWS Data Analytics Specialty", "Azure Data Engineer", "Cloudera Certified", "IBM Data Engineer"],
+      "career_path": ["Junior Data Engineer", "Data Engineer", "Senior Data Engineer", "Lead Data Engineer", "Data Architect", "Director of Data"],
+      "salary_range": {"entry": "75,000-95,000", "mid": "110,000-145,000", "senior": "155,000-190,000"},
+      "learning_resources": ["DataCamp", "Coursera Data Engineering", "AWS Training", "Google Cloud Training", "Data Engineering Podcast"]
+    }
+  ],
+  "career_guidance": {
+    "cybersecurity": "Cybersecurity professionals are in high demand. Start with CompTIA Security+ and networking fundamentals. Specialize in areas like penetration testing, GRC, or SOC operations. Hands-on practice with platforms like HackTheBox and TryHackMe is essential.",
+    "networking": "Network engineers are the backbone of IT infrastructure. Begin with CCNA certification. Master routing, switching, and network security. Evolve into cloud networking and network automation.",
+    "developer": "Software development offers diverse opportunities. Choose a specialization based on your interests. Build a strong portfolio with real projects. Practice coding daily on platforms like LeetCode.",
+    "devops": "DevOps engineers bridge development and operations. Master CI/CD, containerization, and infrastructure as code. Security integration is becoming increasingly important (DevSecOps).",
+    "cloud": "Cloud architecture is one of the fastest-growing fields. Start with AWS Solutions Architect Associate. Build hands-on experience with cloud services. Design cost-optimized, secure architectures.",
+    "ai_ml": "AI/ML engineering requires strong mathematical foundations. Master Python and data science libraries. Build projects to demonstrate your skills. Stay updated with the latest research.",
+    "uiux": "UI/UX design combines creativity with user research. Build a strong portfolio with case studies. Master design tools like Figma. Focus on user-centered design principles.",
+    "project_manager": "Technical project managers bridge business and technology. Develop strong communication and organizational skills. Understand Agile methodologies. Build technical knowledge to manage teams effectively.",
+    "data_engineer": "Data engineers build the foundation for data-driven organizations. Master SQL and Python. Learn big data technologies. Focus on building scalable, maintainable data pipelines."
+  }
+}
