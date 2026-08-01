@@ -1,0 +1,40 @@
+# Red Team - Penetration Testing Career Path
+
+## Role Overview
+Red Team professionals conduct authorized simulated attacks to identify vulnerabilities.
+
+## Key Responsibilities
+- Conduct penetration tests
+- Identify security vulnerabilities
+- Write detailed reports
+- Recommend security improvements
+- Stay updated with new attack vectors
+
+## Required Skills
+- Network penetration testing
+- Web application security
+- Social engineering
+- Wireless security
+- Cloud security testing
+- Scripting (Python, Bash)
+- Exploit development
+
+## Top Certifications
+1. Offensive Security Certified Professional (OSCP)
+2. Certified Ethical Hacker (CEH)
+3. GPEN (GIAC Penetration Tester)
+4. CREST Penetration Testing
+
+## Career Progression
+- Junior Penetration Tester
+- Penetration Tester
+- Senior Penetration Tester
+- Red Team Lead
+- Security Consultant
+
+## Recommended Learning Path
+1. Learn networking fundamentals
+2. Master Linux/Windows
+3. Learn Python scripting
+4. Practice on HackTheBox/TryHackMe
+5. Get OSCP certification
