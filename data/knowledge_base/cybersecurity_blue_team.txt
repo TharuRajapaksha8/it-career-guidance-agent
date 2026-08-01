@@ -1,0 +1,40 @@
+# Blue Team - Security Operations Career Path
+
+## Role Overview
+Blue Team professionals defend networks against cyber threats.
+
+## Key Responsibilities
+- Monitor security events
+- Respond to incidents
+- Implement security controls
+- Investigate security breaches
+- Improve security posture
+
+## Required Skills
+- SIEM operations
+- Incident response
+- Threat hunting
+- Network security
+- Endpoint security
+- Forensic analysis
+- Security automation
+
+## Top Certifications
+1. Certified Incident Handler (GCIH)
+2. CompTIA Security+
+3. CISSP
+4. Certified SOC Analyst (CSA)
+
+## Career Progression
+- Junior Security Analyst
+- SOC Analyst
+- Senior SOC Analyst
+- Incident Response Lead
+- Security Operations Manager
+
+## Recommended Learning Path
+1. Networking fundamentals
+2. Security tools (Splunk, Elastic)
+3. Incident response procedures
+4. Threat intelligence
+5. Advanced security certifications
