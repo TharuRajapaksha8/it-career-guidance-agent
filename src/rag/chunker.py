@@ -55,10 +55,12 @@ class CareerDocumentChunker:
         """
         chunks = []
         
+        # Split by headings for better context
         sections = re.split(r'\n#{1,3}\s+', content)
         sections = [s.strip() for s in sections if s.strip()]
         
         for section in sections:
+            # Further split long sections with overlap
             if len(section) > self.chunk_size:
                 words = section.split()
                 for i in range(0, len(words), self.chunk_size - self.overlap):
