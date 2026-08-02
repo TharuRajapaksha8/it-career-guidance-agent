@@ -25,13 +25,15 @@ Many people don't know what career path to choose in IT. There are so many optio
 - Professionals wanting to switch careers
 - Anyone curious about IT roles
 
-## Architecture Diagram
+## Architecture Diagram 
+(draw.io)
 <img width="608" height="873" alt="Architecture_Diagram" src="https://github.com/user-attachments/assets/a7f33bb2-e4bb-4610-83d7-0b331febe1da" />
 
 
 
 
 ## Agent Communication Diagram
+(draw.io)
 <img width="602" height="703" alt="Agent_Communication_Diagram" src="https://github.com/user-attachments/assets/8af7b124-6000-4a77-97e9-21f1c0647cf2" />
 
 
