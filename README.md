@@ -32,46 +32,8 @@ Many people don't know what career path to choose in IT. There are so many optio
 
 
 ## Agent Communication Diagram
- This shows how agents talk each other.
-+----------------------+
-|    Your Question     |
-+----------------------+
-           |
-           v
-+----------------------+
-|     Router Agent     |
-| "This is about       |
-|  cybersecurity."     |
-+----------------------+
-           |
-   +-------+--------+------------------+
-   |                |                  |
-   v                v                  v
-+----------------+ +----------------+ +----------------+
-|  Single Agent  | | Sequential     | | Parallel       |
-| "I found these | | Agent          | | Agent          |
-|  skills..."    | | Step 1: Match  | | Researching    |
-|                | | Step 2: Skills | | all areas      |
-|                | | Step 3: Certs  | | simultaneously |
-+----------------+ +----------------+ +----------------+
-         \              |               /
-          \             |              /
-           +------------+-------------+
-                        |
-                        v
-              +----------------------+
-              |      Aggregator      |
-              | Combines responses   |
-              | into one final       |
-              | answer               |
-              +----------------------+
-                        |
-                        v
-              +----------------------+
-              |     Final Answer     |
-              | "Here's your career  |
-              | advice."             |
-              +----------------------+
+<img width="602" height="703" alt="Agent_Communication_Diagram" src="https://github.com/user-attachments/assets/8af7b124-6000-4a77-97e9-21f1c0647cf2" />
+
 
 ## Agentic Design Patterns I Used
 | **Single Agent (ReAct)** | One agent thinks, searches, and decides what to do next | `src/agents/single_agent.py` |
